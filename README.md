@@ -10,6 +10,61 @@ Heart and blood vessel problems present at birth.
 Irregular heart rhythms.
 The given dataset is from an ongoing cardiovascular study on residents of the town of Framingham, Massachusetts. The classification goal is to predict whether the patient has a 10-year risk of future coronary heart disease (CHD). The dataset provides the patients’ information. It includes over 4,000 records and 15 attributes. Variables Each attribute is a potential risk factor. There are both demographic, behavioral, and medical risk factors.
 
+## Data Description:
+The dataset provides the patients’ information. It includes over 4,000 records and 15 attributes. Variables Each attribute is a potential risk factor. There are both demographic, behavioural, and medical risk factors
+
+### Demographic:
+•	*Sex:* male or female("M" or "F")
+
+•	*Age:* Age of the patient
+
+### Behavioral:
+
+•	*is_smoking:* whether or not the patient is a current smoker ("YES" or "NO")
+
+•	*Cigs Per Day:* the number of cigarettes that the person smoked on average in one day
+
+### Medical(History):
+
+•	*BP Meds:* whether or not the patient was on blood pressure medication
+
+•	*Prevalent Stroke:* whether or not the patient had previously had a stroke
+
+•	*Prevalent Hyp:* whether or not the patient was hypertensive
+
+•	*Diabetes:* whether or not the patient had diabetes (Nominal) Medical(current)
+
+•	*Tot Chol:* total cholesterol level
+
+•	*Sys BP:* systolic blood pressure
+
+•	*Dia BP:* diastolic blood pressure
+
+•	*BMI:* Body Mass Index
+
+•	*Heart Rate:* heart rate
+
+•	*Glucose:* glucose level
+
+•	*CHD:* 10-year risk of coronary heart disease CHD(binary: “1”, means “Yes”, “0” means “No”)
+
+
+## Approach:-
+### Data preparation:
+•	Removed null values from the dataset
+
+•	Removed duplicate entries
+
+•	Used SMOTE and random under sampling to get a balanced dataset
+
+### Feature engineering:
+•	Extracted feature ‘Hypertension’ from systolic and diastolic blood pressure data
+
+•	Extracted feature ‘Diabetese severity’ from diabetes and glucose column
+
+•	Constructed new feature ‘Smoking Factor’ from number of cigarettes consumption
+
+
 First, we performed data cleaning for the raw data. Asking right question to dataset is always considered as great approach so we asked some very meaningful questions and plotted graphs and other visualization entities to get insights from data and I come with following conclusions:
 
 Over 85% of patients has not having 10-year risk of future coronary heart disease (CHD) and 15% of patients has 10-year risk.
