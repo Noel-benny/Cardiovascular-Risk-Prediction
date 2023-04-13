@@ -1,5 +1,4 @@
 # Cardiovascular-Risk-Prediction
-Cardiovascular Risk Prediction
 
 Cardiovascular disease is a group of diseases affecting your heart and blood vessels. These diseases can affect one or many parts of your heart and/or blood vessels. A person may be symptomatic (physically experiencing the disease) or asymptomatic (not feeling anything at all).
 
