@@ -10,6 +10,16 @@ Heart and blood vessel problems present at birth.
 Irregular heart rhythms.
 The given dataset is from an ongoing cardiovascular study on residents of the town of Framingham, Massachusetts. The classification goal is to predict whether the patient has a 10-year risk of future coronary heart disease (CHD). The dataset provides the patients’ information. It includes over 4,000 records and 15 attributes. Variables Each attribute is a potential risk factor. There are both demographic, behavioral, and medical risk factors.
 
+## Introduction:
+
+Predicting coronary heart disease in advance helps raise awareness for the disease. Preventive measurements like changing diet plans and exercise can slow down the progression of CHD.
+Early prediction can result in early diagnosis. So, we can treat the disease at an early stage and avoid more invasive treatment.
+
+
+## Problem Statement:
+The goal is to predict whether the patient has a 10-year risk of future coronary heart disease (CHD).
+
+
 ## Data Description:
 The dataset provides the patients’ information. It includes over 4,000 records and 15 attributes. Variables Each attribute is a potential risk factor. There are both demographic, behavioural, and medical risk factors
 
